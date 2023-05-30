@@ -1,1 +1,11 @@
 flutter create nome_projeto => Comando que cria projetos flutter. Nomes de projetos que envolverem mais de uma palavra precisa-se de underscore dividindo as palavras devido ao flutter não usar hífen.
+
+pasta .dart_tool não deve ser versionada no Git. Ela sempre é reconstruida quando ao realizar o build.
+
+Widgets Vísiveis => Entrada e Saída => botões, textos, coisas que o usuário vê em geral.
+Widgets Invisíveis => Layouts e controles => Row(), Column(), ListView() => Provê estruturas para o App e controla como os widgets visíveis aparecerão na tela.
+
+formas de passar uma função no flutter em arvores de widgets:
+
+1 (){}
+2 () => nomeFuncao a ser chamada
