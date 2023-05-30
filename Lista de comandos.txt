@@ -1,0 +1,1 @@
+flutter create nome_projeto => Comando que cria projetos flutter. Nomes de projetos que envolverem mais de uma palavra precisa-se de underscore dividindo as palavras devido ao flutter não usar hífen.
