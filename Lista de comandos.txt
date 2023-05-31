@@ -1,3 +1,5 @@
+Este arquvio contem anotações pessoais do flutter que podem auxiliar.
+
 flutter create nome_projeto => Comando que cria projetos flutter. Nomes de projetos que envolverem mais de uma palavra precisa-se de underscore dividindo as palavras devido ao flutter não usar hífen.
 
 pasta .dart_tool não deve ser versionada no Git. Ela sempre é reconstruida quando ao realizar o build.
