@@ -8,12 +8,21 @@ class PerguntaAppState extends State<PerguntaApp> {
   final perguntas = [
     'Qual é a sua cor favorita?',
     'Qual é o seu animal favorito?',
-    'Qual é o seu jogador de futebol favorito?'
+    'Qual é o seu jogador de futebol favorito?',
+    'Qual é o nome do seu pai?',
+    'Qual é o nome da sua mãe?'
   ];
 
   void responder() {
     setState(() {
       perguntaSelecionada++;
+    });
+    print(perguntaSelecionada);
+  }
+
+  void responderMenos() {
+    setState(() {
+      perguntaSelecionada--;
     });
     print(perguntaSelecionada);
   }
@@ -40,6 +49,10 @@ class PerguntaAppState extends State<PerguntaApp> {
               child: Text('Resposta 3'),
               onPressed: responder,
             ),
+            ElevatedButton(
+              child: Text('Resposta 4'),
+              onPressed: responderMenos,
+            )
           ],
         ),
       ),
