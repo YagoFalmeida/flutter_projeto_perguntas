@@ -10,7 +10,8 @@ class PerguntaAppState extends State<PerguntaApp> {
     'Qual é o seu animal favorito?',
     'Qual é o seu jogador de futebol favorito?',
     'Qual é o nome do seu pai?',
-    'Qual é o nome da sua mãe?'
+    'Qual é o nome da sua mãe?',
+    'Qual é a sua idade?'
   ];
 
   void responder() {
@@ -51,6 +52,10 @@ class PerguntaAppState extends State<PerguntaApp> {
             ),
             ElevatedButton(
               child: Text('Resposta 4'),
+              onPressed: responderMenos,
+            ),
+            ElevatedButton(
+              child: Text('Resposta 5'),
               onPressed: responderMenos,
             )
           ],
