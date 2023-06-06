@@ -10,4 +10,22 @@ Widgets Invisíveis => Layouts e controles => Row(), Column(), ListView() => Pro
 formas de passar uma função no flutter em arvores de widgets:
 
 1 (){}
+
 2 () => nomeFuncao a ser chamada
+
+3 Atributos que o nome começa com _ o atributo acaba sendo considerado privado pelo dart.
+
+4 $"" => Igual no C# para interpolar variáveis dentro de strings.
+
+5 Se definir função get na classe para um atributo é possível chamar afunção sem precisar dos parenteses.
+
+6 Forma de declarar um função get no dart:
+	string _cpf; --atribtuto privado
+	get cpf {
+		return _cpf;
+	}
+
+7 Forma de declarar uma função set no dart:
+	set cpf(String novoCpf){
+		this._cpf = novoCpf;
+	}
