@@ -5,10 +5,14 @@ class Resposta extends StatelessWidget {
 
   Resposta(this.texto);
 
+  void imprimirInformacao() {
+    print('Teste de nova função implementada:');
+  }
+
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      onPressed: null,
+      onPressed: imprimirInformacao,
       child: Text(texto),
     );
   }

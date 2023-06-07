@@ -43,26 +43,6 @@ class _PerguntaAppState extends State<PerguntaApp> {
             Resposta('Resposta 1'),
             Resposta('Resposta 2'),
             Resposta('Resposta 3'),
-            ElevatedButton(
-              onPressed: responder,
-              child: const Text('Resposta 1'),
-            ),
-            ElevatedButton(
-              onPressed: responder,
-              child: const Text('Resposta 2'),
-            ),
-            ElevatedButton(
-              onPressed: responder,
-              child: const Text('Resposta 3'),
-            ),
-            ElevatedButton(
-              onPressed: responderMenos,
-              child: const Text('Resposta 4'),
-            ),
-            ElevatedButton(
-              onPressed: responderMenos,
-              child: const Text('Resposta 5'),
-            )
           ],
         ),
       ),

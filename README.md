@@ -3,3 +3,6 @@ Este é o leia-me principal do repositório. O Projeto flutter possui o seu pró
 
 ## Definições do autor do repositório
 Este repositório é um repositório de teste de uma simples aplicação feita em Flutter.
+
+### Objetivo principal
+O foco principal da utilização deste repositório é o aprendizado de flutter.
